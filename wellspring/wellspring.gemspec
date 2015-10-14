@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Wellspring::VERSION
   s.authors     = ["monsteronfire"]
   s.email       = ["monsteronfire@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Wellspring."
-  s.description = "TODO: Description of Wellspring."
+  s.homepage    = "http://www.atomandif.com"
+  s.summary     = "Summary of Wellspring."
+  s.description = "Description "
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2.4"
 
-  s.add_development_dependency "pg"
+  s.add_development_dependency "sqlite3"
 end
